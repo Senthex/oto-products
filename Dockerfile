@@ -1,5 +1,5 @@
 FROM python:onbuild
-MAINTAINER Anton Weiss <ant.weiss@gmail.com>
+MAINTAINER Rico Staeblein <rico.staeblein@hytera.de>
 ADD . /usr/src/app
 WORKDIR /usr/src/app
 RUN pip install -r requirements.txt
